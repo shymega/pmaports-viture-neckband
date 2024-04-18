@@ -51,6 +51,8 @@ _pmb_recommends="
 	postmarketos-artwork-wallpapers
 	ttyescape
 	xdg-user-dirs
+	yaru-icon-theme
+	yaru-theme
 "
 install="$pkgname.post-install $pkgname.post-upgrade"
 source="
