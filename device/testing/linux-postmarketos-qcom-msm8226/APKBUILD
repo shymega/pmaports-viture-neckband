@@ -3,9 +3,9 @@
 
 _flavor="postmarketos-qcom-msm8226"
 pkgname=linux-$_flavor
-pkgver=6.9.1
-pkgrel=1
-_tag="v${pkgver/_/-}-msm8226"
+pkgver=6.11.5
+pkgrel=0
+_tag="c7ff39d0027258e9e2eeac435a1de21a9a756da6"
 pkgdesc="Mainline kernel fork for Qualcomm APQ8026/MSM8226/MSM8926 devices"
 arch="armv7"
 _carch="arm"
@@ -24,11 +24,12 @@ makedepends="
 	openssl-dev
 	perl
 	postmarketos-installkernel
+	python3
 "
 
 # Source
 source="
-	linux-$_tag.tar.gz::https://github.com/msm8226-mainline/linux/archive/refs/tags/$_tag.tar.gz
+	linux-$_tag.tar.gz::https://github.com/msm8226-mainline/linux/archive/$_tag.tar.gz
 	config-$_flavor.armv7
 	"
 builddir="$srcdir/linux-${_tag#v}"
@@ -59,6 +60,6 @@ package() {
 }
 
 sha512sums="
-20bece90edcb5a389fe6e01cf7565228731f5e96ab33178f386e155c42bfa1e26ba49b386abb05c971586e23fa901397d830f8265ffa9025f4785332af082827  linux-v6.9.1-msm8226.tar.gz
-b17389f54804e32e5d82a274fe0cc001ba3984b5077d0ea5b8e19805e1723575e271c5dbce248ee6833aed1ad20c55370377ff24f31ea4985967cbe4b2b8d5a2  config-postmarketos-qcom-msm8226.armv7
+755803cef1b00a41abcf05ea893b2260cd42f6bf74f4ef4e9b95ed9e898d3071d714b0070ae7764983b6947dc7a25f4de7963544c04f13e26e1ab1ef54b29902  linux-c7ff39d0027258e9e2eeac435a1de21a9a756da6.tar.gz
+d12054efca6012720e247a3c249a3c8aea8f8716916d783d0ece3cfe729ef892dd149b45ee9aa7d03df74b4639a7deca8ad247ea1fd6f771ae029c1f65b85f30  config-postmarketos-qcom-msm8226.armv7
 "
