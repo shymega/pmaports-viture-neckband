@@ -38,8 +38,11 @@ if [ "$CHOST" != "$CBUILD" ]; then
 	strip = '${CROSS_COMPILE}strip'
 	readelf = '${CROSS_COMPILE}readelf'
 	objcopy = '${CROSS_COMPILE}objcopy'
+	pkg-config = 'pkg-config'
 	[properties]
 	needs_exe_wrapper = true
+	sys_root = '$CBUILDROOT'
+	c_args = ['-Wl,-rpath-link=$CBUILDROOT/usr/lib']
 	[host_machine]
 	system = 'linux'
 	cpu_family = '$_meson_cpu_family'

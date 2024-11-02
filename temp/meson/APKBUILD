@@ -1,7 +1,8 @@
 # Forked from Alpine INSERT-REASON-HERE (CHANGEME!)
 
 pkgname=meson
-pkgver=1.4.1
+pkgver=9991.4.1
+_pkgver=1.4.1
 pkgrel=0
 pkgdesc="Fast and user friendly build system"
 url="https://mesonbuild.com"
@@ -45,11 +46,12 @@ subpackages="
 	$pkgname-zsh-completion
 	$pkgname-polkit::noarch
 	"
-source="https://github.com/mesonbuild/meson/releases/download/$pkgver/meson-$pkgver.tar.gz
+source="https://github.com/mesonbuild/meson/releases/download/$_pkgver/meson-$_pkgver.tar.gz
 	fix-ninja-output-test.patch
 	skip-broken-tests.patch
 	abuild-meson
 	"
+builddir="$srcdir/meson-$_pkgver"
 
 prepare() {
 	default_prepare
@@ -106,5 +108,5 @@ sha512sums="
 2616bcca70d5554407d4852aa3494e05e53aa8a33f58859ada42750221922fcb6ea7f3452844883f4800d77eed4a7289b061324871218f052219b3caa02dcc9e  meson-1.4.1.tar.gz
 a60dd85ecc1004523c213f4d06bfe10ba906a5115e93cfa4f1b70733e0c16f39c2c22b38ff71bb07c67166f3121c263a56842e8f8e2022f0a44094f956e28f02  fix-ninja-output-test.patch
 0bbbf65f56f4feab43b4ec3fbe7d4c64ef9abb563ea114d0b960048319b936dd577e538a762991661a1cb256f32c0da0fef2d3add07730e37a8bbd4ec27dc611  skip-broken-tests.patch
-3e609e58ec6a68633023a3fb3a8fa857f18925c7f0988bcb4171ef89583244aa3631d1ee4292671369a1e4e6c185d841ad3c1aafc577d0f190e3f0ddd37319e6  abuild-meson
+86d6d467935c12dd2d58db62fafc014bfd21c13d54011bf617ab2f5811ad29ac60f70f236795abf3d570e95b5180b7bfdbfde9426a82cb32803391bc0a92d0a6  abuild-meson
 "
