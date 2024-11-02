@@ -2,13 +2,13 @@
 pkgname=device-trekstor-surftabduow1
 pkgdesc="Trekstor Surftab Duo W1"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="x86_64"
 options="!check !archcheck"
 depends="grub-x86 postmarketos-base linux-lts"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs grub.cfg"
 
 build() {

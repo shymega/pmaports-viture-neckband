@@ -2,13 +2,13 @@
 pkgname=device-infocus-flatfish
 pkgdesc="InFocus New Tab F1"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armhf"
 options="!check !archcheck"
 depends="postmarketos-base linux-infocus-flatfish mkbootimg"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	fb.modes

@@ -3,7 +3,7 @@
 pkgname=device-oneplus-dumpling-downstream
 pkgdesc="OnePlus 5T (Downstream)"
 pkgver=3
-pkgrel=2
+pkgrel=3
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -14,7 +14,7 @@ depends="
 	mkbootimg
 	postmarketos-base
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

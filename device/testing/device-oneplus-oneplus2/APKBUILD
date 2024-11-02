@@ -2,13 +2,13 @@
 pkgname=device-oneplus-oneplus2
 pkgdesc="OnePlus 2"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base linux-oneplus-oneplus2 mkbootimg msm-fb-refresher"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo
 	initfs-hook.sh
 "

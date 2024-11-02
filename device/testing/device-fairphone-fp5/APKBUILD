@@ -3,7 +3,7 @@
 pkgname=device-fairphone-fp5
 pkgdesc="Fairphone 5"
 pkgver=4
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -28,7 +28,7 @@ depends="
 	soc-qcom-sc7280
 	soc-qcom-sc7280-qbootctl
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 replaces="hexagonrpcd-openrc"
 install="$pkgname.post-install $pkgname.post-upgrade"
 source="

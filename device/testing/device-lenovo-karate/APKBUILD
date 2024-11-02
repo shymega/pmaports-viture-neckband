@@ -2,13 +2,13 @@
 pkgname=device-lenovo-karate
 pkgdesc="Lenovo K6 Power"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base linux-lenovo-karate mkbootimg mdss-fb-init-hack"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo 90-android-touch-dev.rules"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 

@@ -3,7 +3,7 @@
 pkgname=device-ayn-odin
 pkgdesc="AYN Odin"
 pkgver=2
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -20,7 +20,7 @@ depends="
 	soc-qcom-sdm845-ucm
 	systemd-boot
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	hexagonrpcd.confd

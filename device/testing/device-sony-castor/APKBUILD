@@ -1,7 +1,7 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-sony-castor
 pkgver=3
-pkgrel=5
+pkgrel=6
 pkgdesc="Sony Xperia Z2 Tablet"
 url="https://postmarketos.org"
 arch="armv7"
@@ -12,7 +12,7 @@ depends="
 	postmarketos-base
 	soc-qcom-msm8974
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="deviceinfo modules-initfs modules-load.conf"
 options="!check !archcheck"

@@ -3,7 +3,7 @@
 pkgname=device-google-asurada
 pkgdesc="Google Asurada Chromebooks"
 pkgver=3
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -16,7 +16,7 @@ depends="
 	postmarketos-cros-common
 	soc-mediatek-mt8183
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 

@@ -2,7 +2,7 @@
 pkgname=device-tolino-shine2hd
 pkgdesc="Tolino Shine 2 HD"
 pkgver=2
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -14,7 +14,7 @@ depends="
 	postmarketos-base
 	u-boot-tolino-shine2hd
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 
 source="

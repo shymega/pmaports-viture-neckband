@@ -2,7 +2,7 @@
 pkgname=device-samsung-j8y18lte
 pkgdesc="Samsung Galaxy J8 (2018)"
 pkgver=1
-pkgrel=6
+pkgrel=7
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -14,7 +14,7 @@ depends="
 	msm-fb-refresher
 	postmarketos-base
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="deviceinfo initfs-hook.sh directfbrc fb.modes 30-gpu-firmware.files"
 

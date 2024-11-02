@@ -2,7 +2,7 @@
 pkgname=device-lg-bullhead
 pkgdesc="Google Nexus 5X"
 pkgver=3
-pkgrel=7
+pkgrel=8
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -11,7 +11,7 @@ depends="
 	msm-fb-refresher
 	postmarketos-base
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-kernel-downstream:kernel_downstream
 	$pkgname-kernel-mainline:kernel_mainline

@@ -1,13 +1,13 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-htc-vision
 pkgver=1
-pkgrel=0
+pkgrel=1
 pkgdesc="HTC Desire Z"
 url="https://github.com/postmarketOS"
 arch="armv7"
 license="MIT"
 depends="linux-htc-vision mkbootimg postmarketos-base msm-fb-refresher"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="deviceinfo
 	90-android.rules

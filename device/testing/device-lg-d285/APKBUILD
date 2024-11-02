@@ -1,13 +1,13 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-lg-d285
 pkgver=1
-pkgrel=21
+pkgrel=22
 pkgdesc="LG L65"
 url="https://postmarketos.org"
 arch="armhf"
 license="MIT"
 depends="postmarketos-base linux-lg-d285 mkbootimg msm-fb-refresher"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	initfs-hook.sh

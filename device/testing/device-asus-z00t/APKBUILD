@@ -2,13 +2,13 @@
 pkgname=device-asus-z00t
 pkgdesc="Zenfone 2 Laser/Selfie (1080p)"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base linux-asus-z00t mkbootimg msm-fb-refresher"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="
 	deviceinfo

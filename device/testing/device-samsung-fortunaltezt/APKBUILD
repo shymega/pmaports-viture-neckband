@@ -2,7 +2,7 @@
 pkgname=device-samsung-fortunaltezt
 pkgdesc="Samsung Galaxy Grand Prime (SM-G530Y)"
 pkgver=2
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -14,7 +14,7 @@ depends="
 	soc-qcom-msm8916
 	soc-qcom-msm8916-rproc
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	modules-initfs

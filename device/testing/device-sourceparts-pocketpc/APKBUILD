@@ -2,7 +2,7 @@
 pkgname=device-sourceparts-pocketpc
 pkgdesc="Source Parts Pocket P.C."
 pkgver=1
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -13,7 +13,7 @@ depends="
 	u-boot-sourceparts-pocketpc
 	u-boot-tools
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	uboot-script.cmd

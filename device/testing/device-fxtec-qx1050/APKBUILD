@@ -2,7 +2,7 @@
 pkgname=device-fxtec-qx1050
 pkgdesc="F(x)tec Pro1x (QX1050)"
 pkgver=1
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -19,7 +19,7 @@ depends="
 	mkbootimg
 	postmarketos-base
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

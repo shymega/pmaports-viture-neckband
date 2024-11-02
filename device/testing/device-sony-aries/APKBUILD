@@ -1,13 +1,13 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-sony-aries
 pkgver=1
-pkgrel=29
+pkgrel=30
 pkgdesc="Sony Xperia Z3 Compact"
 url="https://postmarketos.org"
 arch="armhf"
 license="MIT"
 depends="postmarketos-base linux-sony-aries mkbootimg"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo 90-android-touch-dev.rules fb-workaround.sh"
 options="!check !archcheck"
 

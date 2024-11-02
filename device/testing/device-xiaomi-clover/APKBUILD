@@ -2,7 +2,7 @@
 pkgname=device-xiaomi-clover
 pkgdesc="Xiaomi Mi Pad 4"
 pkgver=3
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -16,7 +16,7 @@ depends="
 	soc-qcom-sdm660
 	soc-qcom-sdm660-rproc
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-kernel-clover:kernel_clover
 	$pkgname-kernel-cloverplus:kernel_cloverplus

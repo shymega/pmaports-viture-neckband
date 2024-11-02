@@ -2,13 +2,13 @@
 pkgname=device-samsung-coreprimevelte
 pkgdesc="Samsung Galaxy Core Prime VE LTE"
 pkgver=2
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="linux-samsung-coreprimevelte postmarketos-base mkbootimg u-boot-tools pxa-mkbootimg"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 _pmb_recommends="firmware-samsung-pxa1908"
 source="
 	deviceinfo

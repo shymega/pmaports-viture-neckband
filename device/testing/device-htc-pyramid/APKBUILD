@@ -2,7 +2,7 @@
 pkgname=device-htc-pyramid
 pkgdesc="HTC Sensation"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -14,7 +14,7 @@ depends="
 	mdss-fb-init-hack
 	msm-fb-refresher
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

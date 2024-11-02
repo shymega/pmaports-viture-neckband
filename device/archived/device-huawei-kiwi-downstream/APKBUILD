@@ -3,13 +3,13 @@
 pkgname=device-huawei-kiwi-downstream
 pkgdesc="Huawei Honor 5X (Downstream)"
 pkgver=1
-pkgrel=3
+pkgrel=4
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base linux-huawei-kiwi-downstream mkbootimg msm-fb-refresher"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 

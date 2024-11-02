@@ -2,13 +2,13 @@
 pkgname=device-samsung-gtelwifi
 pkgdesc="Samsung Galaxy Tab E 9.6"
 pkgver=0
-pkgrel=5
+pkgrel=6
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
 options="!check !archcheck"
 depends="postmarketos-base linux-samsung-gtelwifi mkbootimg msm-fb-refresher"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="deviceinfo"
 

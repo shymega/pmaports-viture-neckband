@@ -2,13 +2,13 @@
 pkgname=device-ouya-ouya
 pkgver=1
 pkgdesc="Ouya"
-pkgrel=28
+pkgrel=29
 url="https://postmarketos.org"
 arch="armv7"
 license="MIT"
 options="!check !archcheck"
 depends="mkbootimg postmarketos-base"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware
 	$pkgname-kernel-downstream:kernel_downstream

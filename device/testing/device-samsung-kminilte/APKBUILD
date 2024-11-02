@@ -2,7 +2,7 @@
 pkgname=device-samsung-kminilte
 pkgdesc="Samsung Galaxy S5 Mini"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -13,7 +13,7 @@ depends="
 	linux-samsung-kminilte
 	mkbootimg
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="
 	deviceinfo

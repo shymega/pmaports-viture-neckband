@@ -3,13 +3,13 @@
 # Co-Maintainer: Oliver Smith <ollieparanoid@postmarketos.org>
 pkgname=device-qemu-aarch64
 pkgver=6
-pkgrel=0
+pkgrel=1
 pkgdesc="Simulated device in QEMU (aarch64)"
 url="https://postmarketos.org"
 arch="aarch64"
 license="MIT"
 depends="postmarketos-base systemd-boot"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-kernel-lts:kernel_lts
 	$pkgname-kernel-virt:kernel_virt

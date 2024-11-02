@@ -2,7 +2,7 @@
 pkgname=device-xiaomi-sagit
 pkgdesc="Xiaomi Mi 6"
 pkgver=2
-pkgrel=4
+pkgrel=5
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -13,7 +13,7 @@ depends="
 	linux-postmarketos-qcom-msm8998
 	soc-qcom-sdm845
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	modules-initfs

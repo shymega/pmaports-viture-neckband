@@ -2,14 +2,14 @@
 # Maintainer: Timothy Valldeperas <tvall43@gmail.com>
 pkgname=device-pine64-rock64
 pkgver=3
-pkgrel=3
+pkgrel=4
 pkgdesc="PINE64 ROCK64"
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base>=25-r1 linux-postmarketos-rockchip u-boot-rock64"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

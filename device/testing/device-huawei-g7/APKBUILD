@@ -3,13 +3,13 @@
 pkgname=device-huawei-g7
 pkgdesc="Huawei Ascend G7"
 pkgver=3
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base mkbootimg soc-qcom-msm8916 linux-postmarketos-qcom-msm8916"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs pointercal"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 

@@ -1,7 +1,7 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-motorola-thea
 pkgver=2
-pkgrel=2
+pkgrel=3
 pkgdesc="Motorola Moto G 2014"
 url="https://postmarketos.org"
 arch="armv7"
@@ -13,7 +13,7 @@ depends="
 	mkbootimg
 	msm-fb-refresher
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 install="$pkgname.post-install"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="deviceinfo 90-android-touch-dev.rules profile.sh"

@@ -2,13 +2,13 @@
 pkgname=device-sony-taoshan
 pkgdesc="Sony Xperia L"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armhf"
 options="!check !archcheck"
 depends="postmarketos-base linux-sony-taoshan mkbootimg msm-fb-refresher"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	sony-taoshan-screen-enlightener

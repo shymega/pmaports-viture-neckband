@@ -4,7 +4,7 @@
 pkgname=device-xiaomi-gemini
 pkgdesc="Xiaomi Mi 5"
 pkgver=1
-pkgrel=8
+pkgrel=9
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -16,7 +16,7 @@ depends="
 	soc-qcom-msm8996
 	soc-qcom-msm8996-ucm
 	"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware $pkgname-phosh"
 
 source="

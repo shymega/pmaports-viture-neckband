@@ -3,7 +3,7 @@
 pkgname=device-xiaomi-lavender
 pkgdesc="Xiaomi Redmi Note 7"
 pkgver=2
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -17,7 +17,7 @@ depends="
 	soc-qcom-sdm660
 	soc-qcom-sdm660-rproc
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-kernel-boe:kernel_boe
 	$pkgname-kernel-tianma:kernel_tianma

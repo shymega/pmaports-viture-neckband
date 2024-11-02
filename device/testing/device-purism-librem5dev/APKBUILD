@@ -3,7 +3,7 @@
 pkgname=device-purism-librem5dev
 pkgdesc="Purism Librem 5 Devkit"
 pkgver=2
-pkgrel=2
+pkgrel=3
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -13,7 +13,7 @@ depends="postmarketos-base
 	u-boot-tools
 	u-boot-librem5-devkit
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 _confver=16
 _confdir=$srcdir/librem5-base-v$_confver
 source="

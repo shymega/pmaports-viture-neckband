@@ -3,13 +3,13 @@
 pkgname=device-raspberry-pi3
 pkgdesc="Raspberry Pi 3B/3B+"
 pkgver=2
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base raspberrypi-bootloader linux-rpi bluetooth-raspberry-pi"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 install="$pkgname.post-install $pkgname.post-upgrade"
 source="deviceinfo modules-initfs usercfg.txt cmdline.txt 95-vchiq-permissions.rules networkmanager.conf"
 

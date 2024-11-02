@@ -1,7 +1,7 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-sony-sirius
 pkgver=3
-pkgrel=2
+pkgrel=3
 pkgdesc="Sony Xperia Z2 device package"
 url="https://postmarketos.org"
 arch="armv7"
@@ -12,7 +12,7 @@ depends="
 	postmarketos-base
 	soc-qcom-msm8974
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-x11 $pkgname-nonfree-firmware:nonfree_firmware"
 source="
 	deviceinfo

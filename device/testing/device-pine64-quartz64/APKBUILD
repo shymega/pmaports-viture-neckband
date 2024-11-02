@@ -2,7 +2,7 @@
 pkgname=device-pine64-quartz64
 pkgdesc="Pine64 Quartz64"
 pkgver=1
-pkgrel=3
+pkgrel=4
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -10,7 +10,7 @@ options="!check !archcheck"
 depends="
 	postmarketos-base
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo
 	modules-initfs
 "

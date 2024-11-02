@@ -2,14 +2,14 @@
 pkgname=device-samsung-serranolte
 pkgdesc="Samsung Galaxy S4 Mini"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
 options="!check !archcheck"
 depends="postmarketos-base linux-samsung-serranolte mkbootimg"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

@@ -2,7 +2,7 @@
 pkgname=device-kobo-librah2o
 pkgdesc="Kobo Libra H2O"
 pkgver=1
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -14,7 +14,7 @@ depends="
 	u-boot-kobo-librah2o
 	u-boot-tools
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 
 source="
 	deviceinfo

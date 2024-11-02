@@ -2,14 +2,14 @@
 pkgname=device-motorola-montana
 pkgdesc="Motorola Moto G5s"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 options="!check !archcheck"
 depends="postmarketos-base linux-motorola-montana mkbootimg msm-fb-refresher"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo initfs-hook.sh"
 
 build() {

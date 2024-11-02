@@ -1,13 +1,13 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-samsung-i9100
 pkgver=8
-pkgrel=0
+pkgrel=1
 pkgdesc="Samsung Galaxy SII"
 url="https://postmarketos.org"
 arch="armv7"
 license="MIT"
 depends="postmarketos-base libsamsung-ipc"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 install="$pkgname.post-install"
 options="!check !archcheck"
 subpackages="

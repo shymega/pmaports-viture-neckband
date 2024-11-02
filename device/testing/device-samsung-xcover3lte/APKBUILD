@@ -2,13 +2,13 @@
 pkgname=device-samsung-xcover3lte
 pkgdesc="Samsung Galaxy Xcover 3"
 pkgver=1
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base linux-samsung-xcover3lte mkbootimg u-boot-tools pxa-mkbootimg alsa-ucm-conf"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="
 	deviceinfo

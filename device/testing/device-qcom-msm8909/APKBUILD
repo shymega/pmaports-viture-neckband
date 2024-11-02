@@ -3,7 +3,7 @@
 pkgname=device-qcom-msm8909
 pkgdesc="Generic device package for various Qualcomm MSM8905/MSM8909/MSM8916-based devices"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -13,7 +13,7 @@ depends="
 	postmarketos-base
 	soc-qcom-msm8909
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	modules-initfs

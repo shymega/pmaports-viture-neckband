@@ -4,7 +4,7 @@
 pkgname=device-xunlong-orangepi3
 pkgdesc="Xunlong Orange Pi 3"
 pkgver=1
-pkgrel=3
+pkgrel=4
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -14,7 +14,7 @@ depends="
 	postmarketos-base>=25-r1
 	u-boot-sunxi
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="deviceinfo"
 

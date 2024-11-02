@@ -2,7 +2,7 @@
 pkgname=device-samsung-kiran
 pkgdesc="Samsung Z1"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -14,7 +14,7 @@ depends="
 	alsa-ucm-conf
 	soc-sprd-audio-sc8830
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 install="$pkgname.post-install"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="deviceinfo"

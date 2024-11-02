@@ -2,7 +2,7 @@
 pkgname=device-samsung-zerofltexx
 pkgdesc="Samsung Galaxy S6"
 pkgver=2
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -14,7 +14,7 @@ depends="
 	mkbootimg
 	msm-fb-refresher
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"

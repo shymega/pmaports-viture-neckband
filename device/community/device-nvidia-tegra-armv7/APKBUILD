@@ -7,7 +7,7 @@
 pkgname=device-nvidia-tegra-armv7
 pkgdesc="NVIDIA Tegra ARMv7"
 pkgver=2
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -17,7 +17,7 @@ depends="
 	linux-postmarketos-grate
 	postmarketos-base
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware

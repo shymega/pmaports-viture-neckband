@@ -3,7 +3,7 @@
 pkgname=device-motorola-ocean
 pkgdesc="Motorola Moto G7 Power"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -15,7 +15,7 @@ depends="
 	postmarketos-base
 	soc-qcom-msm8916
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 

@@ -3,7 +3,7 @@
 pkgname=device-google-veyron
 pkgdesc="Google Veyron Chromebooks"
 pkgver=6
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -16,7 +16,7 @@ depends="
 	postmarketos-cros-common
 "
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 
 # provides and replaces to switch old installations to this package

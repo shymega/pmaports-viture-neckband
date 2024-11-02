@@ -3,7 +3,7 @@
 pkgname=device-zte-b860hv5
 pkgdesc="ZTE ZXV10 B860HV5"
 pkgver=0.1
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -13,7 +13,7 @@ depends="
 	linux-postmarketos-amlogic
 	u-boot-amlogic-s905x2-tv
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	modules-initfs

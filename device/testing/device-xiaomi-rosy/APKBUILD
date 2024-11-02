@@ -4,7 +4,7 @@
 pkgname=device-xiaomi-rosy
 pkgdesc="Xiaomi Redmi 5"
 pkgver=3
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -20,7 +20,7 @@ depends="
 	soc-qcom-msm8953
 	soc-qcom-msm8953-modem
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 
 build() {

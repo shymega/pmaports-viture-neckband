@@ -3,7 +3,7 @@
 pkgname=device-kobo-clara2e
 pkgdesc="Kobo Clara 2E"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -18,7 +18,7 @@ _pmb_recommends="
 	linux-firmware-mrvl
 	linux-firmware-nxp
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 
 source="
 	deviceinfo

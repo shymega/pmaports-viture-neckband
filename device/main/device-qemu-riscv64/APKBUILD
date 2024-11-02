@@ -3,13 +3,13 @@
 # Co-Maintainer: Luca Weiss <luca@lucaweiss.eu>
 pkgname=device-qemu-riscv64
 pkgver=3
-pkgrel=0
+pkgrel=1
 pkgdesc="Simulated device in QEMU (riscv64)"
 url="https://postmarketos.org"
 arch="riscv64"
 license="MIT"
 depends="postmarketos-base"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-kernel-edge:kernel_edge
 	$pkgname-mce

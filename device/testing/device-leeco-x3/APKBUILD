@@ -2,13 +2,13 @@
 pkgname=device-leeco-x3
 pkgdesc="LeEco Le 1s"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base linux-leeco-x3 mkbootimg"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

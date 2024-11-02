@@ -2,13 +2,13 @@
 pkgname=device-samsung-i747m
 pkgdesc="Samsung Galaxy SIII (USA/Canada)"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armhf"
 options="!check !archcheck"
 depends="postmarketos-base linux-samsung-i747m mkbootimg"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo 90-android-touch-dev.rules fb.modes"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 

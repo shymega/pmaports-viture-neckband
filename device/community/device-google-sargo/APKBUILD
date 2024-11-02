@@ -3,7 +3,7 @@
 pkgname=device-google-sargo
 pkgdesc="Google Pixel 3a"
 pkgver=6
-pkgrel=2
+pkgrel=3
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -17,7 +17,7 @@ depends="
 	soc-qcom-sdm845
 	soc-qcom-sdm845-qbootctl
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	10-unl0kr-msm.conf
 	81-libssc-google-sargo.rules

@@ -3,7 +3,7 @@
 pkgname=device-fairphone-fp4
 pkgdesc="Fairphone 4"
 pkgver=3
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -37,7 +37,7 @@ depends="
 	tqftpserv
 	tqftpserv-openrc
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 replaces="hexagonrpcd-openrc"
 install="$pkgname.post-install $pkgname.post-upgrade"
 source="

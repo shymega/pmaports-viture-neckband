@@ -2,14 +2,14 @@
 # Maintainer: Bart Ribbers <bribbers@disroot.org>
 pkgname=device-pine64-rockpro64
 pkgver=3
-pkgrel=8
+pkgrel=9
 pkgdesc="PINE64 ROCKPro64"
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base>=25-r1 linux-postmarketos-rockchip soc-rockchip-rk3399 u-boot-rockchip"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="deviceinfo"
 

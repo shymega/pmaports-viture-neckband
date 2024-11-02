@@ -2,7 +2,7 @@
 pkgname=device-acer-t01
 pkgdesc="Acer Liquid Z330"
 pkgver=2
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -15,7 +15,7 @@ depends="
 	soc-qcom-msm8916-rproc
 "
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 _pmb_select="soc-qcom-msm8916-rproc"
 

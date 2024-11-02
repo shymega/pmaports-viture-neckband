@@ -1,7 +1,7 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-sony-togari
 pkgver=1
-pkgrel=0
+pkgrel=1
 pkgdesc="Sony Xperia Z Ultra"
 url="https://postmarketos.org"
 arch="armv7"
@@ -11,7 +11,7 @@ depends="
 	mkbootimg
 	linux-postmarketos-qcom-msm8974
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="
 	deviceinfo

@@ -5,14 +5,14 @@
 pkgname=device-samsung-a3
 pkgdesc="Samsung Galaxy A3 (2015)"
 pkgver=12
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base mkbootimg linux-postmarketos-qcom-msm8916
 	 soc-qcom-msm8916 soc-qcom-msm8916-rproc soc-samsung-msm8916-modem-workaround"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	modules-initfs

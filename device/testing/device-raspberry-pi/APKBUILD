@@ -2,13 +2,13 @@
 pkgname=device-raspberry-pi
 pkgdesc="Raspberry Pi"
 pkgver=1
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="armhf"
 options="!check !archcheck"
 depends="postmarketos-base raspberrypi-bootloader"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-kernel-rpi:kernel_rpi
 	$pkgname-kernel-rpi2:kernel_rpi2

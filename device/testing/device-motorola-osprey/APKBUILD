@@ -1,14 +1,14 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-motorola-osprey
 pkgver=8
-pkgrel=1
+pkgrel=2
 pkgdesc="Motorola Moto G 2015"
 url="https://postmarketos.org"
 arch="aarch64"
 license="MIT"
 depends="postmarketos-base mkbootimg linux-postmarketos-qcom-msm8916
 	 soc-qcom-msm8916 soc-qcom-msm8916-rproc"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 options="!check !archcheck"
 _pmb_select="soc-qcom-msm8916-rproc"

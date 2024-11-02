@@ -4,7 +4,7 @@
 pkgname=device-odroid-u2
 pkgdesc="ODROID U2/U3"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -13,7 +13,7 @@ depends="
 	 postmarketos-base>=25-r1
 	 u-boot-odroid>=2023.04-r1
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-kernel-lts:kernel_lts
 	$pkgname-kernel-exynos4:kernel_exynos4

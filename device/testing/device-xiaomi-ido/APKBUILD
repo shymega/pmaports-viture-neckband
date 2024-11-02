@@ -2,13 +2,13 @@
 pkgname=device-xiaomi-ido
 pkgdesc="Xiaomi Xiaomi Redmi 3"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base linux-xiaomi-ido mkbootimg"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo
 	fb.modes
 	initfs-hook.sh

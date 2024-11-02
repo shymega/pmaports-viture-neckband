@@ -3,7 +3,7 @@
 pkgname=device-xiaomi-elish
 pkgdesc="Xiaomi Mi Pad 5 Pro"
 pkgver=3
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -18,7 +18,7 @@ depends="
 	qbootctl
 	swclock-offset
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 replaces="hexagonrpcd-openrc"
 install="$pkgname.post-install $pkgname.post-upgrade"
 source="

@@ -2,7 +2,7 @@
 pkgname=device-apple-iphone6
 pkgdesc="Apple iPhone 6"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -11,7 +11,7 @@ depends="
 	linux-postmarketos-apple
 	postmarketos-base
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 
 build() {

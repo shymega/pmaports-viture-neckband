@@ -5,7 +5,7 @@
 pkgname=device-google-x64cros
 pkgdesc="Google Chromebooks with x64 CPU"
 pkgver=11
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="x86_64"
@@ -17,7 +17,7 @@ depends="
 	postmarketos-cros-common
 	systemd-boot
 	"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 install="$pkgname.post-install $pkgname.post-upgrade"
 subpackages="
 	$pkgname-kernel-lts:kernel_lts

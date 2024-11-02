@@ -4,14 +4,14 @@
 pkgname=device-lenovo-a6010
 pkgdesc="Lenovo A6010"
 pkgver=8
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base mkbootimg linux-postmarketos-qcom-msm8916
 	 soc-qcom-msm8916 soc-qcom-msm8916-rproc"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs phoc.ini"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware

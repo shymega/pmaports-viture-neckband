@@ -3,7 +3,7 @@
 pkgname=device-acer-aspire1
 pkgdesc="Acer Aspire 1"
 pkgver=4
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -14,7 +14,7 @@ depends="
 	soc-qcom-sc7180
 	systemd-boot
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware
 	$pkgname-ucm

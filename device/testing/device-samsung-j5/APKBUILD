@@ -3,7 +3,7 @@
 pkgname=device-samsung-j5
 pkgdesc="Samsung Galaxy J5 (2015)"
 pkgver=6
-pkgrel=2
+pkgrel=3
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -15,7 +15,7 @@ depends="
 	soc-qcom-msm8916
 	soc-qcom-msm8916-rproc
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 _pmb_select="soc-qcom-msm8916-rproc"

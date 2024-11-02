@@ -2,7 +2,7 @@
 pkgname=device-mobvoi-skipjack
 pkgdesc="Mobvoi Ticwatch C2"
 pkgver=2
-pkgrel=4
+pkgrel=5
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -18,7 +18,7 @@ subpackages="
 	$pkgname-nonfree-firmware-venus:nonfree_firmware_venus
 	$pkgname-nonfree-firmware-wcnss:nonfree_firmware_wcnss
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

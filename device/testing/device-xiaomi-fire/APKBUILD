@@ -3,7 +3,7 @@
 pkgname=device-xiaomi-fire
 pkgdesc="Xiaomi Redmi 12"
 pkgver=1
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -16,7 +16,7 @@ depends="
 	postmarketos-base-downstream
 	firmware-xiaomi-fire
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

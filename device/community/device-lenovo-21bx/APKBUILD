@@ -5,7 +5,7 @@
 pkgname=device-lenovo-21bx
 pkgdesc="Lenovo ThinkPad X13s"
 pkgver=10
-pkgrel=2
+pkgrel=3
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -23,7 +23,7 @@ depends="
 	qmi-utils
 	systemd-boot
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	firmware.files

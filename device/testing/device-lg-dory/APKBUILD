@@ -1,7 +1,7 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-lg-dory
 pkgver=1
-pkgrel=21
+pkgrel=22
 pkgdesc="LG G Watch"
 url="https://postmarketos.org"
 arch="armhf"
@@ -12,7 +12,7 @@ depends="
 	msm-fb-refresher
 	postmarketos-base
 	"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-asteroid"
 source="
 	90-touchscreen-dev.rules

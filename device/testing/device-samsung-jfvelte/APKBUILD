@@ -2,13 +2,13 @@
 pkgname=device-samsung-jfvelte
 pkgdesc="Samsung Galaxy S4 Value Edition"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
 options="!check !archcheck"
 depends="postmarketos-base linux-samsung-jfvelte mkbootimg msm-fb-refresher"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo fb.modes"
 
 build() {

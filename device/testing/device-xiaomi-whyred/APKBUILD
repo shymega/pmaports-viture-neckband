@@ -3,13 +3,13 @@
 pkgname=device-xiaomi-whyred
 pkgdesc="Xiaomi Redmi Note 5"
 pkgver=2
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base linux-xiaomi-whyred mkbootimg mdss-fb-init-hack"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

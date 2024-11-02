@@ -2,7 +2,7 @@
 pkgname=device-samsung-klte
 pkgdesc="Samsung Galaxy S5 (G900F/G9006/G9008/G9009W)"
 pkgver=9
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -14,7 +14,7 @@ depends="
 	swclock-offset
 	soc-qcom-msm8974
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware
 	$pkgname-kernel-klte:kernel_klte

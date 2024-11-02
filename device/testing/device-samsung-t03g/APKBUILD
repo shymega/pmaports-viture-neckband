@@ -2,7 +2,7 @@
 pkgname=device-samsung-t03g
 pkgdesc="Samsung Galaxy Note II (GSM)"
 pkgver=3
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -13,7 +13,7 @@ depends="
 	postmarketos-base
 	soc-samsung-exynos4412-haptics
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware
 	$pkgname-kernel-s6evr02:kernel_s6evr02

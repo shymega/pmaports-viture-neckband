@@ -3,7 +3,7 @@
 pkgname=device-sony-leo
 pkgdesc="Sony Xperia Z3"
 pkgver=2
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -15,7 +15,7 @@ depends="
 	postmarketos-base
 	soc-qcom-msm8974
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-kernel-mainline:kernel_mainline
 	$pkgname-kernel-downstream:kernel_downstream

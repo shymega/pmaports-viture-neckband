@@ -2,7 +2,7 @@
 pkgname=device-sony-suzuran
 pkgdesc="Sony Xperia Z5 Compact"
 pkgver=2
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -14,7 +14,7 @@ depends="
 	postmarketos-base
 	postmarketos-base-downstream
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	90-android-touch-dev.rules

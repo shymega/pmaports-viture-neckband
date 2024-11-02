@@ -2,7 +2,7 @@
 pkgname=device-samsung-grandpplte
 pkgdesc="Samsung Galaxy Grand Prime Plus"
 pkgver=2
-pkgrel=4
+pkgrel=5
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -16,7 +16,7 @@ depends="
 	u-boot-grandpplte
 	u-boot-tools
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	boot.cmd
 	boot-image.its

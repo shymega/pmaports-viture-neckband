@@ -2,7 +2,7 @@
 pkgname=device-cubietech-cubieboard
 pkgdesc="Cubietech Cubieboard"
 pkgver=1
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -12,7 +12,7 @@ depends="
 	postmarketos-base
 	u-boot-sunxi
 	"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs extlinux.conf"
 
 build() {

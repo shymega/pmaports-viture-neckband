@@ -4,7 +4,7 @@
 pkgname=device-xiaomi-equuleus
 pkgdesc="Xiaomi Mi 8 Pro"
 pkgver=1
-pkgrel=5
+pkgrel=6
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -15,7 +15,7 @@ depends="
 	postmarketos-base
 	soc-qcom-sdm845
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

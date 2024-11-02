@@ -3,13 +3,13 @@
 pkgname=device-samsung-a5lte-downstream
 pkgdesc="Samsung Galaxy A5 (SM-A500F)"
 pkgver=1
-pkgrel=2
+pkgrel=3
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
 options="!check !archcheck"
 depends="postmarketos-base linux-samsung-a5lte-downstream mkbootimg msm-fb-refresher"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

@@ -5,7 +5,7 @@
 pkgname=device-qualcomm-sdm845
 pkgdesc="Generic device package for Qualcomm SDM845 devices"
 pkgver=1
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -24,7 +24,7 @@ depends="
 	soc-qcom-sdm845-ucm
 	systemd-boot
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	10-unl0kr.conf
 	deviceinfo

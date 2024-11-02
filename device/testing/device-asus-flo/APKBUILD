@@ -2,13 +2,13 @@
 # Maintainer: David Heidelberg <david@ixit.cz>
 pkgname=device-asus-flo
 pkgver=2
-pkgrel=1
+pkgrel=2
 pkgdesc="Google Nexus 7 2013 (flo)"
 url="https://postmarketos.org"
 arch="armv7"
 license="MIT"
 depends="postmarketos-base mkbootimg"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-kernel-downstream:kernel_downstream
 	$pkgname-kernel-mainline:kernel_mainline

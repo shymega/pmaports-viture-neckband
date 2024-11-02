@@ -5,7 +5,7 @@
 pkgname=device-generic-zhihe
 pkgdesc="A generic device package for various MSM8916-based dongles(namely zhihe)"
 pkgver=2
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="GPL"
 arch="aarch64"
@@ -17,7 +17,7 @@ depends="
 	soc-qcom-msm8916-rproc
 "
 _pmb_select="soc-qcom-msm8916-rproc"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware

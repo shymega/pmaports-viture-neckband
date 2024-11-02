@@ -2,7 +2,7 @@
 pkgname=device-sipeed-m1sdock
 pkgdesc="Sipeed M1s DOCK"
 pkgver=1
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="riscv64"
@@ -11,7 +11,7 @@ depends="
 	linux-postmarketos-bflb
 	postmarketos-base
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

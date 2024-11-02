@@ -2,13 +2,13 @@
 pkgname=device-samsung-skomer
 pkgdesc="Samsung Galaxy Xcover 2"
 pkgver=5
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
 options="!check !archcheck"
 depends="postmarketos-base mkbootimg linux-postmarketos-stericsson"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware
 	$pkgname-kwin

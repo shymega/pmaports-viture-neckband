@@ -3,7 +3,7 @@
 pkgname=device-powkiddy-x55
 pkgdesc="Powkiddy X55"
 pkgver=4
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -15,7 +15,7 @@ depends="
 	postmarketos-base
 	u-boot-powkiddy-x55
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 _pmb_recommends="powkiddy-x55-mapper"
 

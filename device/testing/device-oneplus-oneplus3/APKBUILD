@@ -2,7 +2,7 @@
 pkgname=device-oneplus-oneplus3
 pkgdesc="OnePlus 3"
 pkgver=1
-pkgrel=11
+pkgrel=12
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -15,7 +15,7 @@ depends="
 	reboot-mode
 	soc-qcom-msm8996
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 
 build() {

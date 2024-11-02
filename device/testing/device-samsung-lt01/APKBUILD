@@ -3,7 +3,7 @@
 pkgname=device-samsung-lt01
 pkgdesc="Samsung Galaxy Tab 3 8.0"
 pkgver=3
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -14,7 +14,7 @@ depends="
 	postmarketos-base
 	"
 _pmb_recommends="$pkgname-nonfree-firmware"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware
 	$pkgname-kernel-wifi:kernel_wifi

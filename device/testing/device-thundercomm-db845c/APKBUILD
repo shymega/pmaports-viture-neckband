@@ -5,7 +5,7 @@
 pkgname=device-thundercomm-db845c
 pkgdesc="Thundercomm Dragonboard 845c"
 pkgver=1
-pkgrel=6
+pkgrel=7
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -19,7 +19,7 @@ depends="
 	soc-qcom-sdm845-qbootctl
 	fwupd>=1.8.6
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	modules-initfs

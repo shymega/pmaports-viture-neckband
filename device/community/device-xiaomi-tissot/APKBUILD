@@ -5,7 +5,7 @@
 pkgname=device-xiaomi-tissot
 pkgdesc="Xiaomi Mi A1"
 pkgver=8
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -22,7 +22,7 @@ depends="
 	soc-qcom-msm8953
 	soc-qcom-msm8953-modem
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 
 build() {

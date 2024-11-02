@@ -3,7 +3,7 @@
 pkgname=device-google-corsola
 pkgdesc="Google Corsola Chromebooks"
 pkgver=4
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -16,7 +16,7 @@ depends="
 	postmarketos-cros-common
 	soc-mediatek-mt8183
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 _ucm_commit="b728563a07ebcd05545c60989412ae023b1dd06d"
 source="deviceinfo
 	modules-initfs

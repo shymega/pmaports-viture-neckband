@@ -2,7 +2,7 @@
 pkgname=device-pine64-pinenote
 pkgdesc="Pine64 PineNote"
 pkgver=2
-pkgrel=7
+pkgrel=8
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -12,7 +12,7 @@ depends="
 	linux-pine64-pinenote
 	postmarketos-base
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	modules-initfs

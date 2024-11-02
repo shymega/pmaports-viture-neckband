@@ -2,13 +2,13 @@
 pkgname=device-samsung-kylevess
 pkgdesc="Samsung Trend Lite"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armhf"
 options="!check !archcheck"
 depends="linux-samsung-kylevess mkbootimg postmarketos-base"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

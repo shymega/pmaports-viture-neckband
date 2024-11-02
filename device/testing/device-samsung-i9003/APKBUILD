@@ -1,13 +1,13 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-samsung-i9003
 pkgver=1
-pkgrel=35
+pkgrel=36
 pkgdesc="Samsung Galaxy SL"
 url="https://postmarketos.org"
 arch="armv7"
 license="MIT"
 depends="postmarketos-base linux-samsung-i9003 libsamsung-ipc mkbootimg"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo
 	90-android-touch-dev.rules
 	"

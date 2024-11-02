@@ -4,14 +4,14 @@
 pkgname=device-samsung-a5
 pkgdesc="Samsung Galaxy A5 (2015)"
 pkgver=11
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base mkbootimg linux-postmarketos-qcom-msm8916
 	 soc-qcom-msm8916 soc-qcom-msm8916-rproc soc-samsung-msm8916-modem-workaround"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware

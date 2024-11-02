@@ -4,7 +4,7 @@
 pkgname=device-odroid-xu4
 pkgdesc="ODROID XU4"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -13,7 +13,7 @@ depends="linux-postmarketos-exynos5
 	 postmarketos-base>=25-r1
 	 u-boot-odroid
 	"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="deviceinfo modules-initfs"
 

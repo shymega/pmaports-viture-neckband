@@ -2,7 +2,7 @@
 pkgname=device-samsung-i9100g
 pkgdesc="Samsung Galaxy SII (GT-I9100G)"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -11,7 +11,7 @@ depends="
 	linux-samsung-i9100g
 	postmarketos-base
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="
 	deviceinfo

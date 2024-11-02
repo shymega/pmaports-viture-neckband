@@ -2,7 +2,7 @@
 pkgname=device-klipad-rel
 pkgdesc="KLIPAD Klipad Tablet"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="armv7"
@@ -12,7 +12,7 @@ depends="
 	postmarketos-base
 	mkbootimg
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 build() {

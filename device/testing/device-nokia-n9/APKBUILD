@@ -1,13 +1,13 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-nokia-n9
 pkgver=2
-pkgrel=1
+pkgrel=2
 pkgdesc="Nokia N9"
 url="https://postmarketos.org"
 arch="armhf"
 license="MIT"
 depends="postmarketos-base linux-nokia-n9 ofono watchdog-kick"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	initfs-hook.sh

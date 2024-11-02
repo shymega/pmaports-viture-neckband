@@ -2,14 +2,14 @@
 pkgname=device-pine64-a64lts
 pkgdesc="PINE64 A64-LTS"
 pkgver=1
-pkgrel=2
+pkgrel=3
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 depends="postmarketos-base linux-postmarketos-allwinner u-boot-sunxi u-boot-tools"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	uboot-script.cmd

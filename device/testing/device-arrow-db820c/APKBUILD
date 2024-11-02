@@ -2,7 +2,7 @@
 pkgname=device-arrow-db820c
 pkgdesc="Arrow DragonBoard 820c"
 pkgver=1
-pkgrel=5
+pkgrel=6
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -13,7 +13,7 @@ depends="
 	postmarketos-base
 	soc-qcom-msm8996
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	30-gpu-firmware.files
 	deviceinfo

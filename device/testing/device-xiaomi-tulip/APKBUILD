@@ -3,7 +3,7 @@
 pkgname=device-xiaomi-tulip
 pkgdesc="Xiaomi Redmi Note 6 Pro"
 pkgver=2
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -18,7 +18,7 @@ depends="
 	soc-qcom-sdm660
 	soc-qcom-sdm660-rproc
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	deviceinfo
 	modules-initfs

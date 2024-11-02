@@ -2,13 +2,13 @@
 pkgname=device-asus-t00f
 pkgdesc="Asus Zenfone 5"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="x86"
 options="!check !archcheck"
 depends="postmarketos-base linux-asus-t00f mkbootimg"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="$pkgname-x11"
 source="
 	deviceinfo

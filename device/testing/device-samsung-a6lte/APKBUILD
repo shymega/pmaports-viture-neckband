@@ -2,7 +2,7 @@
 pkgname=device-samsung-a6lte
 pkgdesc="Samsung Galaxy A6 2018"
 pkgver=5
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -17,7 +17,7 @@ depends="
 replaces="
 	lightdm
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 install="$pkgname.post-install"
 source="
 	$pkgname.post-install

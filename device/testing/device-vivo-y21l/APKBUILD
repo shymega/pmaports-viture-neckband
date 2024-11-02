@@ -3,13 +3,13 @@
 pkgname=device-vivo-y21l
 pkgdesc="Vivo Y21L"
 pkgver=2
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="postmarketos-base mkbootimg linux-postmarketos-qcom-msm8916 soc-qcom-msm8916"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 

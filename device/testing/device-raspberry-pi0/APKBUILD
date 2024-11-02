@@ -2,13 +2,13 @@
 pkgname=device-raspberry-pi0
 pkgdesc="Raspberry Pi Zero"
 pkgver=1
-pkgrel=1
+pkgrel=2
 url="https://postmarketos.org"
 license="MIT"
 arch="armhf"
 options="!check !archcheck"
 depends="postmarketos-base raspberrypi-bootloader linux-rpi bluetooth-raspberry-pi"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 install="$pkgname.post-install $pkgname.post-upgrade"
 source="deviceinfo modules-initfs config.txt usercfg.txt cmdline.txt 95-vchiq-permissions.rules"
 

@@ -3,7 +3,7 @@
 pkgname=device-samsung-j7y17lte
 pkgdesc="Samsung Galaxy J7 2017"
 pkgver=2
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -22,7 +22,7 @@ depends="
 replaces="
 	udev-init-scripts-openrc
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 install="$pkgname.post-install"
 source="
 	deviceinfo

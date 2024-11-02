@@ -1,13 +1,13 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-sony-yuga
 pkgver=4
-pkgrel=1
+pkgrel=2
 pkgdesc="Sony Xperia Z"
 url="https://postmarketos.org"
 arch="armv7"
 license="MIT"
 depends="postmarketos-base mkbootimg"
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware
 	$pkgname-kernel-downstream:kernel_downstream

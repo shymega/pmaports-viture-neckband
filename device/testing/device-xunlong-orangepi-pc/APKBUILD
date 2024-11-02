@@ -3,7 +3,7 @@
 pkgname=device-xunlong-orangepi-pc
 pkgdesc="Xunlong Orange Pi PC"
 pkgver=1
-pkgrel=2
+pkgrel=3
 url="https://postmarketos.org"
 license="GPL-3.0-or-later"
 arch="armv7"
@@ -13,7 +13,7 @@ depends="
 	postmarketos-base
 	u-boot-sunxi
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo"
 
 package() {

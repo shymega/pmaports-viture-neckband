@@ -3,7 +3,7 @@
 pkgname=device-lenovo-flex-5g
 pkgdesc="Lenovo Flex 5G"
 pkgver=2
-pkgrel=2
+pkgrel=3
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -14,7 +14,7 @@ depends="
 	soc-qcom-sc8180x
 	systemd-boot
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="deviceinfo modules-initfs"
 
 build() {

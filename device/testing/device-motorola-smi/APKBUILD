@@ -2,7 +2,7 @@
 pkgname=device-motorola-smi
 pkgdesc="Motorola RAZR i"
 pkgver=1
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="x86"
@@ -14,7 +14,7 @@ depends="
 	watchdog-kick
 	petitboot-motorola-smi
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 subpackages="
 	$pkgname-nonfree-firmware:nonfree_firmware
 	$pkgname-phosh

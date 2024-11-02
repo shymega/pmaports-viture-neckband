@@ -2,7 +2,7 @@
 pkgname=device-google-bonito
 pkgdesc="Google Pixel 3a XL"
 pkgver=3
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -15,7 +15,7 @@ depends="
 	soc-qcom-sdm845
 	soc-qcom-sdm845-qbootctl
 "
-makedepends="devicepkg-dev"
+makedepends_build="devicepkg-dev"
 source="
 	90-feedbackd-drv2624.rules
 	deviceinfo
